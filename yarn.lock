@@ -1058,6 +1058,177 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
+"@dicebear/adventurer-neutral@^5.3.0":
+  "integrity" "sha512-GE3GgdvWWofcq/Lqg9KOUIZ+n4Z07ZqzmYhzDC9/XDSQtnwuVRcupm8Vy0qHWXBBAx034Bb7ckxQyPDC/+Ue7g=="
+  "resolved" "https://registry.npmjs.org/@dicebear/adventurer-neutral/-/adventurer-neutral-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/adventurer@^5.3.0":
+  "integrity" "sha512-k/tAz5Og6IjWxUBErEv6uY0DePaHHS/gIbpx9tsF40giofj+J9CDjznbczXHRholKLKyb17ouXyZDRaxWIWT1g=="
+  "resolved" "https://registry.npmjs.org/@dicebear/adventurer/-/adventurer-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/avataaars-neutral@^5.3.0":
+  "integrity" "sha512-hzV8HSxjVdtU1qZ10P1aZkPgBj62dRy6xKs4PmaPDa0QoZunv1xcFaFcA62yEhGaNAPFXqfk2+wegH4jGY+iSg=="
+  "resolved" "https://registry.npmjs.org/@dicebear/avataaars-neutral/-/avataaars-neutral-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/avataaars@^5.3.0":
+  "integrity" "sha512-OdGejNVedyJBZS4wmJ2uULGRq/BPnYqYJ9aAxdOSOG+MmjxLKhHuYTJiPYySlTP29wassoOTbQPXgwzKS+iUuw=="
+  "resolved" "https://registry.npmjs.org/@dicebear/avataaars/-/avataaars-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/big-ears-neutral@^5.3.0":
+  "integrity" "sha512-gNzEcFw+jWZfYEl3mkjcikZlSYs+RrpzkzKENOMHIull6BmpG1f1Z01bs4vt3lA4XM8wFXVdjrGOlsAt5a3LQQ=="
+  "resolved" "https://registry.npmjs.org/@dicebear/big-ears-neutral/-/big-ears-neutral-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/big-ears@^5.3.0":
+  "integrity" "sha512-h3dLMWFJ+PQN0BqD6F87Rn3wNek1vXjqHD0IF7hlbPDP7Lt+1s9fJi7npjqm2nsFDE9ohAPEG00TgRGmMTjDrw=="
+  "resolved" "https://registry.npmjs.org/@dicebear/big-ears/-/big-ears-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/big-smile@^5.3.0":
+  "integrity" "sha512-RvsEormfRBdEeCqD213VELDbE1v2Tm9aj4FhxauMnHtOuXQ/PGPoehYKnHKxfwc1UxdczNG5tQlwrnZknlwnww=="
+  "resolved" "https://registry.npmjs.org/@dicebear/big-smile/-/big-smile-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/bottts-neutral@^5.3.0":
+  "integrity" "sha512-lO6QE4fcaQWAcLmO0ej36BcEbBQqmcpE6Vcdar5t2bYYrEXt9ZeMa53Sf4F6I2bQ352JJEEYc+TkgPnTaB/dOw=="
+  "resolved" "https://registry.npmjs.org/@dicebear/bottts-neutral/-/bottts-neutral-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/bottts@^5.3.0":
+  "integrity" "sha512-y/v21mgG7dpRVmZoCKYy1kBlDK8VpZBtD949ZVbTCcfK4vPZjqJqbM1hnkHX8BL2e+fd+d3zRdtpeDLROQVtug=="
+  "resolved" "https://registry.npmjs.org/@dicebear/bottts/-/bottts-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/collection@^5.3.0":
+  "integrity" "sha512-UA/NIDyLFcYkXjaUz8GhDwMsYINyGum6iDejvWaCizlKAlWa7jI6XyDntIv2eHVpU80GoDnr2+JlkuxIEutqKg=="
+  "resolved" "https://registry.npmjs.org/@dicebear/collection/-/collection-5.3.0.tgz"
+  "version" "5.3.0"
+  dependencies:
+    "@dicebear/adventurer" "^5.3.0"
+    "@dicebear/adventurer-neutral" "^5.3.0"
+    "@dicebear/avataaars" "^5.3.0"
+    "@dicebear/avataaars-neutral" "^5.3.0"
+    "@dicebear/big-ears" "^5.3.0"
+    "@dicebear/big-ears-neutral" "^5.3.0"
+    "@dicebear/big-smile" "^5.3.0"
+    "@dicebear/bottts" "^5.3.0"
+    "@dicebear/bottts-neutral" "^5.3.0"
+    "@dicebear/croodles" "^5.3.0"
+    "@dicebear/croodles-neutral" "^5.3.0"
+    "@dicebear/fun-emoji" "^5.3.0"
+    "@dicebear/icons" "^5.3.0"
+    "@dicebear/identicon" "^5.3.0"
+    "@dicebear/initials" "^5.3.0"
+    "@dicebear/lorelei" "^5.3.0"
+    "@dicebear/lorelei-neutral" "^5.3.0"
+    "@dicebear/micah" "^5.3.0"
+    "@dicebear/miniavs" "^5.3.0"
+    "@dicebear/open-peeps" "^5.3.0"
+    "@dicebear/personas" "^5.3.0"
+    "@dicebear/pixel-art" "^5.3.0"
+    "@dicebear/pixel-art-neutral" "^5.3.0"
+    "@dicebear/shapes" "^5.3.0"
+    "@dicebear/thumbs" "^5.3.0"
+
+"@dicebear/converter@^5.3.0":
+  "integrity" "sha512-adqlQ5fellCUazD+61U+eTeVUUiTaBV7q64whWiK34TCgevCwWAkWTyzY6pHHhCev7gzaKElN/26XLWK1sv7VA=="
+  "resolved" "https://registry.npmjs.org/@dicebear/converter/-/converter-5.3.0.tgz"
+  "version" "5.3.0"
+  dependencies:
+    "@types/json-schema" "^7.0.7"
+    "tmp-promise" "^3.0.3"
+
+"@dicebear/core@^5.0.0", "@dicebear/core@^5.3.0":
+  "integrity" "sha512-aXHC0X1piSp+jxQdMcBv+V1LGt3oty0qgiA5UOYtQZGjeB7xKCJMd9mQhXgt9eHbTS/WkAov1wt9aHaAcURm0Q=="
+  "resolved" "https://registry.npmjs.org/@dicebear/core/-/core-5.3.0.tgz"
+  "version" "5.3.0"
+  dependencies:
+    "@dicebear/converter" "^5.3.0"
+
+"@dicebear/croodles-neutral@^5.3.0":
+  "integrity" "sha512-jgF6DTY1vdpQKdwdMDb3W7/3pVMubvhr0zIuyTFeo5dCc0HdeWBwidIUZR5p9k6AT7huDbjIFSRQEluLmpS4Iw=="
+  "resolved" "https://registry.npmjs.org/@dicebear/croodles-neutral/-/croodles-neutral-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/croodles@^5.3.0":
+  "integrity" "sha512-MqPYI6u78sNQ9X7/x7JEozpmuq+gReSgZAk9056U8KpLjBTegGKyFQO5wpWY0kZAGhoDTNmuv4eCYcDxqhdh1Q=="
+  "resolved" "https://registry.npmjs.org/@dicebear/croodles/-/croodles-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/fun-emoji@^5.3.0":
+  "integrity" "sha512-uUDLs00Av35TosmDdW8K7JCdzhtk1RPbFrta5x/pPfmBVEUguxMvwZqXgx6eDNCvqPwU4SbbUBCxglQr5jV7+Q=="
+  "resolved" "https://registry.npmjs.org/@dicebear/fun-emoji/-/fun-emoji-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/icons@^5.3.0":
+  "integrity" "sha512-rgWuAId2E94pKPj28qTC2ymno0hjcOVlWPPIrxG+CJgFoESyrjLazcotisuosdKUr8hplfEMCVW4WSxeo0ITMw=="
+  "resolved" "https://registry.npmjs.org/@dicebear/icons/-/icons-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/identicon@^5.3.0":
+  "integrity" "sha512-m2xtD5zNXWn2PJISpFT7yt5aECqQLgQiL3PZzPvbUpqIN806Or20KjrCA4KJFqPSr44Wy4o9gKirli7U1Kt7hg=="
+  "resolved" "https://registry.npmjs.org/@dicebear/identicon/-/identicon-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/initials@^5.3.0":
+  "integrity" "sha512-34/nSsMWQpGc5kI5AA3Byah2exaZs9ahGuutATV9CjMluQ0Q3C20rCZUq3na66rLoZSFoMM8mF1dgyYzPBvs8Q=="
+  "resolved" "https://registry.npmjs.org/@dicebear/initials/-/initials-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/lorelei-neutral@^5.3.0":
+  "integrity" "sha512-S0v4TNMYJUrrNQLKGsINDDp3kFCcH3ghsGy0g+7PhTsdtChm4rwVvk/NNUhMtGfWPEGzEMlH4yKFW00JiArPhA=="
+  "resolved" "https://registry.npmjs.org/@dicebear/lorelei-neutral/-/lorelei-neutral-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/lorelei@^5.3.0":
+  "integrity" "sha512-IHozOd0Wde2A8yIjisJGqvJnYGCA1PAoxSnN2mgvdP3w7iFIEcjJYUi2EpUAzrebXD9aynJ7cPu1GbBiOpAAUA=="
+  "resolved" "https://registry.npmjs.org/@dicebear/lorelei/-/lorelei-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/micah@^5.3.0":
+  "integrity" "sha512-NE9sghVt/gp+k6/qnJQRImwRoixKVcjTGBBrQVQWJuPR3Pi5oURvTisW6sZHe4uWd+VBIDdhTMK3RebKEJ0fFw=="
+  "resolved" "https://registry.npmjs.org/@dicebear/micah/-/micah-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/miniavs@^5.3.0":
+  "integrity" "sha512-slgDSSbBL2wwAuEFGYzP+NI+34EGBcNtoiJJvZhvKVFHwLW51eQ3S9zgQIRWzbnCP5icFpU7zkCqeOCGACw28g=="
+  "resolved" "https://registry.npmjs.org/@dicebear/miniavs/-/miniavs-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/open-peeps@^5.3.0":
+  "integrity" "sha512-wlINmH6nX2/RhQTRec/PnaRx/zBxHoPzlBjwPF09Ykp7J0+rAgJRIDRQPt7t66YEhAarXn+2sRUJ75RXDSHGWA=="
+  "resolved" "https://registry.npmjs.org/@dicebear/open-peeps/-/open-peeps-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/personas@^5.3.0":
+  "integrity" "sha512-uBUbAOpbOieBKcM2qWQn6HOL566vjDxtAsyRQw+guRSP+yZJtxBP08klo6y3Y2rx8rkgyULxC2TF7noSPoQhCw=="
+  "resolved" "https://registry.npmjs.org/@dicebear/personas/-/personas-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/pixel-art-neutral@^5.3.0":
+  "integrity" "sha512-aLYPBPeBk3Q9sijR8x58H0N0LL/ScMLU9NnqX/v8cd6Yh57wed9NZO/F6bcvbiFsNhU5u5zcaKkpD1ubWU8DZQ=="
+  "resolved" "https://registry.npmjs.org/@dicebear/pixel-art-neutral/-/pixel-art-neutral-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/pixel-art@^5.3.0":
+  "integrity" "sha512-/z4sMWzYE79u18yiMBgE06e4Cno19mICZMg90bsbOoAi0xVxBk47tbKwepVTb5ye3Zlp44e1sH9olZ61ecZKUg=="
+  "resolved" "https://registry.npmjs.org/@dicebear/pixel-art/-/pixel-art-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/shapes@^5.3.0":
+  "integrity" "sha512-fNY7XhyX2ELHRswYTKg1SdbQHMMKYCkrm59IX8x6QvgsVbU0FbzVyGur89GWAPQ7rrx/JsmLJLdOWOVfWBgWUA=="
+  "resolved" "https://registry.npmjs.org/@dicebear/shapes/-/shapes-5.3.0.tgz"
+  "version" "5.3.0"
+
+"@dicebear/thumbs@^5.3.0":
+  "integrity" "sha512-LvSXe3QvNRXNOb4yQ3JTxXK/LsQ0xx5Qogiu83veEK4FVsoq4HydFZyTzZ1GRx3nlorZ8kshA5IMNGU5iqx7BQ=="
+  "resolved" "https://registry.npmjs.org/@dicebear/thumbs/-/thumbs-5.3.0.tgz"
+  "version" "5.3.0"
+
 "@eslint/eslintrc@^1.4.1":
   "integrity" "sha512-XXrH9Uarn0stsyldqDYq8r++mROmWRI1xKMXa640Bb//SY1+ECYX6VzT6Lcx5frD0V30XieqJ0oX9I2Xj5aoMA=="
   "resolved" "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.4.1.tgz"
@@ -1853,6 +2024,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
+"@notifee/react-native@^7.4.0":
+  "integrity" "sha512-c8pkxDQFRbw0JlUmTb07OTG/4LQHRj8MBodMLwEcO+SvqIxK8ya8zSUEzfdcdWsSVqdoym0v3zpSNroR3Quj/w=="
+  "resolved" "https://registry.npmjs.org/@notifee/react-native/-/react-native-7.4.0.tgz"
+  "version" "7.4.0"
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   "integrity" "sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ=="
   "resolved" "https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz"
@@ -2256,7 +2432,7 @@
     "expect" "^29.0.0"
     "pretty-format" "^29.0.0"
 
-"@types/json-schema@^7.0.9":
+"@types/json-schema@^7.0.7", "@types/json-schema@^7.0.9":
   "integrity" "sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ=="
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz"
   "version" "7.0.11"
@@ -6534,10 +6710,10 @@
     "react-freeze" "^1.0.0"
     "warn-once" "^0.1.0"
 
-"react-native-svg@^13.7.0", "react-native-svg@>= 11.x":
-  "integrity" "sha512-WR5CIURvee5cAfvMhmdoeOjh1SC8KdLq5u5eFsz4pbYzCtIFClGSkLnNgkMSDMVV5LV0qQa4jeIk75ieIBzaDA=="
-  "resolved" "https://registry.npmjs.org/react-native-svg/-/react-native-svg-13.7.0.tgz"
-  "version" "13.7.0"
+"react-native-svg@^13.8.0", "react-native-svg@>= 11.x":
+  "integrity" "sha512-G8Mx6W86da+vFimZBJvA93POw8yz0fgDS5biy6oIjMWVJVQSDzCyzwO/zY0yuZmCDhKSZzogl5m0wXXvW2OcTA=="
+  "resolved" "https://registry.npmjs.org/react-native-svg/-/react-native-svg-13.8.0.tgz"
+  "version" "13.8.0"
   dependencies:
     "css-select" "^5.1.0"
     "css-tree" "^1.1.3"
@@ -6806,7 +6982,7 @@
   "resolved" "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz"
   "version" "1.0.4"
 
-"rimraf@^3.0.2":
+"rimraf@^3.0.0", "rimraf@^3.0.2":
   "integrity" "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA=="
   "resolved" "https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz"
   "version" "3.0.2"
@@ -7344,6 +7520,20 @@
   dependencies:
     "readable-stream" "~2.3.6"
     "xtend" "~4.0.1"
+
+"tmp-promise@^3.0.3":
+  "integrity" "sha512-RwM7MoPojPxsOBYnyd2hy0bxtIlVrihNs9pj5SUvY8Zz1sQcQG2tG1hSr8PDxfgEB8RNKDhqbIlroIarSNDNsQ=="
+  "resolved" "https://registry.npmjs.org/tmp-promise/-/tmp-promise-3.0.3.tgz"
+  "version" "3.0.3"
+  dependencies:
+    "tmp" "^0.2.0"
+
+"tmp@^0.2.0":
+  "integrity" "sha512-76SUhtfqR2Ijn+xllcI5P1oyannHNHByD80W1q447gU3mp9G9PSpGdWmjUOHRDPiHYacIk66W7ubDTuPF3BEtQ=="
+  "resolved" "https://registry.npmjs.org/tmp/-/tmp-0.2.1.tgz"
+  "version" "0.2.1"
+  dependencies:
+    "rimraf" "^3.0.0"
 
 "tmpl@1.0.5":
   "integrity" "sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw=="

@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#3c2a21',
   },
   welcome: {
-    flex: 1 / 5,
+    flex: 2,
   },
   welcomeText: {
     color: 'white',
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
   },
   form: {
-    flex: 4 / 5,
+    flex: 4,
     justifyContent: 'center',
     alignItems: 'center',
   },

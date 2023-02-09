@@ -1,4 +1,4 @@
-import firebaseConfig from '../firebase';
+import auth from '../firebase-auth';
 import {
   Pressable,
   Text,
@@ -10,21 +10,13 @@ import {
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faMugSaucer} from '@fortawesome/free-solid-svg-icons';
 import React, {useEffect, useState} from 'react';
-import {initializeApp} from 'firebase/app';
-import {
-  getAuth,
-  signInWithEmailAndPassword,
-  onAuthStateChanged,
-} from 'firebase/auth';
+import {signInWithEmailAndPassword, onAuthStateChanged} from 'firebase/auth';
 import {useNavigation} from '@react-navigation/native';
 
 import styles from './Stylesheets/Login-Stylesheet';
 
 const Login = () => {
   LogBox.ignoreAllLogs(); //Ignore all log notifications
-
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, user => {
@@ -47,7 +39,10 @@ const Login = () => {
       .then(userCredential => {
         const user = userCredential.user;
       })
-      .catch(error => alert(error.message));
+      .catch(error => {
+        setLoading(prevLoading => !prevLoading);
+        alert(error.message);
+      });
   }
 
   const [email, setEmail] = useState('');

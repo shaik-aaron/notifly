@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097882455989",
+    "project_id": "sendhoor-notification-message",
+    "storage_bucket": "sendhoor-notification-message.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097882455989:android:d577c9e4fceb65eed053fc",
+        "android_client_info": {
+          "package_name": "com.sendhoornotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097882455989-hsapmlvbduil197sntm1ldcvhvvubqhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCriQvuX9aS1GWDuJSxMvCYqknLIGp1nNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097882455989-hsapmlvbduil197sntm1ldcvhvvubqhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

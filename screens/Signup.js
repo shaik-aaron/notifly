@@ -1,4 +1,4 @@
-import firebaseConfig from '../firebase';
+import auth from '../firebase-auth';
 import {
   Pressable,
   Text,
@@ -7,45 +7,35 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import {initializeApp} from 'firebase/app';
 import {
-  getAuth,
   createUserWithEmailAndPassword,
   onAuthStateChanged,
+  updateProfile,
 } from 'firebase/auth';
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 
 import styles from './Stylesheets/Signup-Stylesheet';
 
 const Signup = () => {
-
   const navigation = useNavigation();
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
-  function handleSignUpData() {
+  async function handleSignUpData() {
     setLoading(prevLoading => !prevLoading);
-    createUserWithEmailAndPassword(auth, email, password)
-      .then(userCredential => {
-        const user = userCredential.user;
-      })
-      .catch(error => alert(error.message));
+    await createUserWithEmailAndPassword(auth, email, password).catch(err =>
+      alert(err.message),
+    );
+    await updateProfile(auth.currentUser, {displayName: name}).catch(err =>
+      alert(err.message),
+    );
+    await onAuthStateChanged(auth, user =>
+      navigation.navigate('Home', () => {}),
+    ).catch(err => alert(err.message));
   }
-
-  useEffect(() => {
-    onAuthStateChanged(auth, user => {
-      if (user) {
-        navigation.replace('Home');
-      }
-    });
-  }, []);
 
   return (
     <View style={styles.container}>
