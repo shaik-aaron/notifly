@@ -18,14 +18,19 @@ import Signup from './screens/Signup';
 const Stack = createNativeStackNavigator();
 
 const message = ref(database, 'notifications/');
-onValue(message, snapshot => {
+onValue(message, async snapshot => {
   const data = snapshot.val();
 
-  notifee.displayNotification({
+  const channelId = await notifee.createChannel({
+    id: 'default',
+    name: 'Default Channel',
+  });
+
+  await notifee.displayNotification({
     title: data.messageTitle,
     body: data.messageBody,
     android: {
-      channelId: 'default',
+      channelId,
       smallIcon: 'ic_launcher', // optional, defaults to 'ic_launcher'.
       // pressAction is needed if you want the notification to open the app when pressed
       pressAction: {
