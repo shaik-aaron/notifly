@@ -54,7 +54,7 @@ const Login = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerText}>Sendhoor</Text>
+        <Text style={styles.headerText}>Notifly</Text>
         <FontAwesomeIcon size={40} color={'white'} icon={faMugSaucer} />
       </View>
       <View style={styles.inputContainer}>
